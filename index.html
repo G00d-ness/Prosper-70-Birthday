@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Celebrating 70 Years of Grace |
-        Mr. Prosper Tadjomavowe Emudianughe
+        Mr. Prosper Tadjomavwo Emudianughe
     </title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
@@ -18,16 +18,18 @@
     
     <div id="loader">
         <div class="loader-content">
+            <div class="loader-logo-wrapper">
 
             <img src="/images/logo.PNG" alt="70 Years Logo" class="loader-logo">
-
+</div>
             <h1>
-                Celebrating 70 years
+                Celebrating 70 Years
             </h1>
-            <p>Loading the Story of a Remarkable Life... </p>
+            <p>Loading memories... </p>
             <div class="loading-bar">
-                <div class="loading-progress"></div>
+                <div class="loading-progress" id="loading-progress"></div>
             </div>
+            <span class="loading-percentage" id="loading-percentage">0%</span>
         </div>
     </div>
 
@@ -43,8 +45,8 @@
     
         <div class="welcome-overlay"></div>
         <div class="welcome-content">
-            <h3>Welcome To</h3>
-            <h1>The 70th Birthday Celebration Of </h1>
+            <h3> YOU ARE INVITED TO CELEBRATE</h3>
+            <h1>70 Years of <span>Grace</span> </h1>
             <h2>Mr. Prosper Emudianughe</h2>
             <p>A Life of Faith . Family . Education . Service . Legacy</p>
             <button id="enter-site" class="btn">Begin The Journey</button>
@@ -55,8 +57,8 @@
 
     <header>
         <nav class="navbar">
-            <div class="logo">70 YEARS OF GRACE</div>
-            <ul class="nav-links">
+            <a href="#home" class="logo">70 YEARS OF GRACE</a>
+            <ul class="nav-links" id="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#biography">Biography</a></li>
                 <li><a href="#timeline">Timeline</a></li>
@@ -65,9 +67,10 @@
                 <li><a href="#guestbook">Guestbook</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-            <div class="menu-btn">
+            <button class="menu-btn" id="menu-btn" 
+            aria-label="Open navigation menu" aria-expanded="false" type="button">
                 =
-            </div>
+            </button>
         </nav>
     </header>
 
@@ -78,7 +81,7 @@
                 Celebrating
             </p>
             <h1>70 Remarkable Years</h1>
-            <h2>Mr.Prosper Tadjomavowe Emudianughe</h2>
+            <h2>Mr.Prosper Tadjomavwo Emudianughe</h2>
             <p class="hero-description">
                 A devoted husband.
                 A loving father.
@@ -387,7 +390,7 @@
                 <img src="images/oldprosper.JPG" alt="Mr. Prosper Emudianughe">
                 <h3>Mr. Prosper Tadjomavowe Emudianughe </h3>
                 <span>
-                    Celebrant | Husband Father Grandfather Educator
+                    Celebrant 
                 </span>
             </div>
 
@@ -396,7 +399,7 @@
             <div class="tree-person" main person data-member="mum">
                 <img src="images/mum.JPG" alt="Mrs. Anneth Emudianughe">
                 <h3>Mrs. Anneth Otavero Emudianughe </h3>
-                <span>Loving Wife Mother Grandmother </span>
+                <span>Loving Wife</span>
             </div>
         </div>
 
@@ -406,37 +409,37 @@
 
             <div class="tree-person child" data-member="christy">
                 <img src="images/christy.JPG" alt="christy">
-                <h3>Christy Oghenero</h3>
+                <h3>Christy Oghenero Emudianughe</h3>
                 <small>First Daughter</small>
             </div>
             <div class="tree-person child" data-member="peace">
                 <img src="images/peace.JPG" alt="peace">
-                <h3>Peace Ufuoma</h3>
+                <h3>Peace Ufuoma (nee:Emudianughe) Agbra</h3>
                 <small>Second Daughter</small>
             </div>
             <div class="tree-person child" data-member="evelyn">
                 <img src="images/eve.JPG" alt="evelyn">
-                <h3>Evelyn Iroroyokpako</h3>
+                <h3>Evelyn Iroroyokpako Emudianughe</h3>
                 <small>Third Daughter</small>
             </div>
             <div class="tree-person child" data-member="prudence">
                 <img src="images/prudy.JPG" alt="prudence">
-                <h3>Prudence Okeoghene</h3>
+                <h3>Prudence Okeoghene Emudianughe</h3>
                 <small>Fourth Daughter</small>
             </div>
             <div class="tree-person child" data-member="emma">
                 <img src="images/emma.JPG" alt="emma">
-                <h3>Emmanuel Onanefe</h3>
+                <h3>Emmanuel Onanefe Emudianughe</h3>
                 <small>Son</small>
             </div>
             <div class="tree-person child" data-member="praise">
                 <img src="images/praise.JPG" alt="praise">
-                <h3>Praise Ejiroghene</h3>
+                <h3>Praise Ejiroghene Emudianughe</h3>
                 <small>Fifth Daughter and First Twin</small>
             </div>
             <div class="tree-person child" data-member="precious">
                 <img src="images/precious.jpg" alt="Precious">
-                <h3>Precious Akpevweoghene</h3>
+                <h3>Precious Akpevweoghene Emudianughe</h3>
                 <small>Sixth Daughter and Second Twin</small>
             </div>
         </div>
@@ -447,7 +450,7 @@
             <div class="branch-family">
                 <div class="tree-person selected-child" data-member="peace-family">
                     <img src="images/peace.JPG" alt="peace">
-                    <h3>Peace Ufuoma</h3>
+                    <h3>Peace Ufuoma Agbra</h3>
                 </div>
                 <div class="love-icon" aria-hidden="true">&hearts;</div>
                 <div class="tree-person spouse" data-member="kelvin">
@@ -624,7 +627,7 @@
             <h2>Photo Gallery</h2>
         </div>
         <div class="gallery-grid">
-            <img src="/images/eve.JPG" alt="family photo">
+            <img src="/images/peace.JPG" alt="family photo">
             <img src="/images/BJXU6994.JPG" alt="wedding anniversary">
             <img src="/images/eve.JPG" alt="graduation celebration">
             <img src="/images/precious.jpg" alt="church">
@@ -703,69 +706,119 @@
         </div>
     </section>
 -->
-    <section id="celebration" class="celebration">
-        <div class="section-title">
-            <span>Join the Celebration</span>
-            <h2>Happy 70th Birthday! </h2>
-            <p>
-                We invite you to join us in celebrating the remarkable life of
-                Mr. Prosper Tadjomavowe Emudianughe on his 70th birthday.
+
+
+    <section id="birthday-cake" class="cake-section">
+        <div class="cake-heading">
+            <span class="cake-small-title">Join the Celebration</span>
+            <h2>70 Years of Grace, Love & Legacy! </h2>
+            <p> Help us celebrate 70 wonderful years of 
+                <strong>Mr. Prosper Tadjomavowe Emudianughe </strong>.
             </p>
 
         </div>
-<div class="cake-section">
-        <div class="cake" id="birthdayCake">
-        <div class="cake-container">
-            <div class="cake-layer layer-bottom"></div>
-            <div class="cake-layer layer-middle"></div>
-            <div class="cake-layer layer-top"></div>
+<div class="cake-stage">
 
-           <!--<img src="images/cake.JPG" alt="Birthday Cake" id="birthday-cake">
-            */
-            <div class="cake-buttons">
-                <button id="light-candles" class="btn">
-                    Light the Candles</button>
-                <button id="blow-candles" class="btn secondary-btn">
-                    Blow Out the Candles</button>
---> 
-                    <div class="candles">
-                        <div class="candle" data-id ="1">
-                            <div class="flame"></div>
-                            <div class="smoke"></div>
+    <div class="celebration-message" id="celebrationMessage">
+    
+        <h3>Happy 70th Birthday, Daddy!</h3>
+        <p>70 years of life, love, wisdom and beautiful memories.
+            We celebrate you today and always.
+        </p>
+        <div class="message-hearts">
+            <div class="love-icon" aria-hidden="true">&hearts;</div>
+            <div class="love-icon" aria-hidden="true">&hearts;</div>
+            <div class="love-icon" aria-hidden="true">&hearts;</div>
+        </div>
+    </div>
+
+        <div class="cake-wrapper" id="cakeWrapper">
+
+             <div class="candles" id="candles">
+                        <div class="candle" style="--i:1">
+                            <span class="flame"></span>
                         </div>
-                        <div class="candle" data-id ="2">
-                            <div class="flame"></div>
-                            <div class="smoke"></div>
+                        <div class="candle" style="--i:2">
+                            <span class="flame"></span>
                         </div>
-                        <div class="candle" data-id ="3">
-                            <div class="flame"></div>
-                            <div class="smoke"></div>
+                        <div class="candle" style="--i:3">
+                            <span class="flame"></span>
                         </div>
-                        <div class="candle" data-id ="4">
-                            <div class="flame"></div>
-                            <div class="smoke"></div>
+                        <div class="candle" style="--i:4">
+                            <span class="flame"></span>
                         </div>
-                        <div class="candle" data-id ="5">
-                            <div class="flame"></div>
-                            <div class="smoke"></div>
+                        <div class="candle" style="--i:5">
+                            <span class="flame"></span>
                         </div>
-                        <div class="candle" data-id ="6">
-                            <div class="flame"></div>
-                            <div class="smoke"></div>
+                        <div class="candle" style="--i:6">
+                            <span class="flame"></span>
                         </div>
-                        <div class="candle" data-id ="7">
-                            <div class="flame"></div>
-                            <div class="smoke"></div>
+                        <div class="candle" style="--i:7">
+                            <span class="flame"></span>
                         </div>
                     </div>
-                    
+                    <div class="number-candle">
+                        <span class="number">7</span>
+                        <span class="number-flame flame"></span>
+                    </div>
+                    <div class="number-candle">
+                        <span class="number">0</span>
+                        <span class="number-flame flame"></span>
+                    </div>
+
+            <div class="cake cake-top">
+                <div class="cake-icing"></div>
+                <div class="cake-decoration">
+                    <span>+</span>
+                    <span>*</span>
+                    <span>+</span>
+                    <span>*</span>
+                    <span>+</span>
+                </div>
             </div>
-        </div>
+            <div class="cake cake-middle">
+                <div class="icing-drip drip-one"></div>
+                 <div class="icing-drip drip-two"></div>
+                  <div class="icing-drip drip-three"></div>
+                   <div class="icing-drip drip-four"></div>
+                    <div class="icing-drip drip-five"></div>
+                    <div class="cake-band">
+                        <span>70</span>
+                    </div>
+            </div>
+             <div class="cake cake-bottom">
+                <div class="bottom-decoration">
+                    <span>+</span>
+                    <span>*</span>
+                    <span>+</span>
+                    <span>*</span>
+                    <span>+</span>
+                    <span>*</span>
+                    <span>+</span>
+                </div>
+             </div>
+             <div class="cake-plate"></div>
+           </div>
+
+            <div class="cake-instruction" id="cakeInstruction">
+                <div class="instruction-icon">TAP THE CAKE</div>
+                <h3>Make a wish for Daddy!</h3>
+                <p>Tap the cake to blow out the candles</p>
+</div>
+                <button id="relightButton" class="relight-button" type="button">
+                    Light the Candles Again</button>
+                <div class="confetti-container" id="confettiContainer"></div>
+
+                   
+                    
+            
+        
         </div>
 </div>
     </section>
 
-    <section class="tributes">
+   <!--section class="tributes">
+        <div class="tribute-container">
         <div class="section-title">
             <span>Words of Love </span>
             <h2>Family Tributes</h2>
@@ -777,35 +830,70 @@
                     to God and our family.
                     Happy 70th birthday, my dear husband!"</p>
             </div>
-            <div class="tribute">
+            <div class="tribute-card">
                 <h3>Your Children</h3>
                 <p>"Thank you for your believing in us,
                     investing in our education and teaching us
                     to always trust God."</p>
             </div>
-            <div class="tribute">
+            <div class="tribute-card">
                 <h3>Your Grandchildren</h3>
                 <p>"We love you so much, Grandpa.
                     Happy Birthday!"</p>
             </div>
-    </section>
-    <section class="quiz">
-        <div class="section-title">
+            <button class="btn" id="slider-buttons">Next</button>
+            </div>
+    </section>--> 
+
+    <section class="birthday-quiz" id="quiz">
+
+        <div class="quiz-header">
+            <span class="quiz-badge">
+                THE 70TH BIRTHDAY QUIZ
+            </span>
 
             <h2>How Well Do You Know Daddy?</h2>
+            <p>
+                Think you know the story behind 70 amazing years?
+                Let's find out!
+            </p>
 
         </div>
         <div class="quiz-box">
-            <h3>Question 1: Where did he obtain his Master's degree?</h3>
-            <button class="quiz-option">A. University of Lagos</button>
-            <button class="quiz-option correct">B. University of Port Harcourt</button>
-            <button class="quiz-option">C. University of Benin</button>
-            <button class="quiz-option">D. University of Ibadan</button>
-            <p id="quiz-result"></p>
+            <div class="quiz-progress">
+                <div class="progress-info">
+            <span id="quizQuestionNumber">
+                Question 1 of 10
+            </span>
+            <span id="quizScore">
+                Score: 0
+            </span>
+            </div>
+            <div class="progress-bar">
+            <div id="quizProgressFill"></div>
+            </div>
+            </div>
+            <div class="quiz-question" id="quizQuestion">
+                How well do you know Daddy?
+            </div>
+            <div class="quiz-answers" id="quizAnswers"></div>
+            <div class="quiz-feedback" id="quizFeedback"></div>
+            <button class="quiz-next" id="quizNext" type="button">Next Question <span>-></span></button>
         </div>
-        <!-- Add more questions here -->
+        <div class="quiz-result" id="quizResult">
+            <div class="result-icon">70</div>
+            <h2>Quiz Complete!</h2>
+            <p class="result-score">
+                You scored <strong id="finalScore">0</strong>
+            </p>
+            <p id="resultMessage">Well done!</p>
+            <button class="quiz-restart" id="quizRestart" type="button">Play Again</button>
+
         </div>
+        
     </section>
+
+
     <section id="guestbook" class="guestbook">
         <div class="section-title">
 
@@ -814,15 +902,15 @@
                 Share your prayers, memories, and wishes.
             </p>
         </div>
-        <form id="guestbook-form">
+        <form class="guestbook-form">
             <input type="text" id="Your Name" placeholder="Your Name" required>
-            <textarea id="message" placeholder="Write your message here..." required></textarea>
+            <textarea id="message" placeholder="Prayers, Wishes and Memories..." required></textarea>
             <button type="submit" class="btn">Send Message</button>
         </form>
         <div id="guestbook-messages"></div>
     </section>
 
-    <section class="birthday-prayer">
+    <section class="prayer">
         <div class="section-title">
             <h2>A Prayer for Daddy</h2>
         </div>
@@ -848,17 +936,20 @@
                 With love from the Emudianughe Family
             </p>
         </div>
+    </section>
 
-        <footer>
+        <footer class="site-footer">
+            <div class="footer-container">
             <h2>Celebrating
                 Mr. Prosper Tadjomavowe Emudianughe at 70</h2>
             <p>"A Life of Faith, A Legacy of Education, A Heart full
                 of love and gratitude."</p>
             <p>&copy; 2026 The Emudianughe Family. All rights reserved.</p>
+            </div>
         </footer>
 
         <canvas id="fireworks"></canvas>
-        <button id="backToTop">=></button>
+        <button class="back-top" id="backToTop">=></button>
         <audio id="birthdayMusic" loop>
             <source src="audio/happy_birthday_song.mp3" type="audio/mpeg">
         </audio>
