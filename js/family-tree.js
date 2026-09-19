@@ -24,7 +24,7 @@ const familyMembers = {
         name: "Mrs. Peace Ufuoma Agbra",
         role: " Second Child | First Daughter ",
         photo: "images/children/IMG_5860.JPG",
-        education: "Master's Degree in Industrial Chemistry from University of Lagos.",
+        education: "Master's Degree in Pharmaceutical Chemistry from University of Lagos.",
         story: "She is a devoted Christian, mother, sister, wife, CEO of Peake Sparkle, also assisted in taking care of her siblings."
 
     },

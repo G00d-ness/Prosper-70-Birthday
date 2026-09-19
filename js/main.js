@@ -98,6 +98,45 @@ if (!enterSite || !welcome || !mainSite) {return;}
 
 
 
+const playMusicBtn = document.getElementById("music-toggle");
+const birthdayMusic = document.getElementById("birthdayMusic");
+
+const songs = [
+   
+    "audio/Don-Moen-Thank-You-Lord-Live.mp3",
+    "audio/Don-Moen-God-Will-Make-a-Way.mp3",
+    "audio/Don-Moen-I-Will-Sing.mp3",
+    "audio/Don-Moen-Mi-Corazon-Live.mp3",
+    "audio/Don-Moen-Our-Father-Live.mp3",
+    "audio/Don-Moen-Psalm-23.mp3",
+    "audio/Don-Moen-Shout-to-the-Lord.mp3",
+    "audio/Don-Moen-Still-Be-Still-And-Know-Medley.mp3",
+     "audio/Don-Moen-Arise-Live.mp3",
+    
+];
+let currentSong = 0;
+function playCurrentSong() {
+    birthdayMusic.src = songs[currentSong];
+    birthdayMusic.play();
+}
+playMusicBtn.addEventListener("click", () =>{
+    if (birthdayMusic.paused) { playCurrentSong();
+        playMusicBtn.textContent = "Pause Music";
+    } else {
+        birthdayMusic.pause();
+        playMusicBtn.textContent = "Play Music";
+    }
+});
+birthdayMusic.addEventListener("ended", () =>{
+    currentSong++;
+    if (currentSong >= songs.length) {
+        currentSong = 0;
+    }
+    playCurrentSong();
+});
+
+
+
 
 
 

@@ -842,7 +842,7 @@ header{
     min-height: 105px;
     padding: 18px 10px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     background: rgba(255, 255, 255, .15);
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, .25);
