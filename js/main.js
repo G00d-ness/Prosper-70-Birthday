@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", () => {
        
         },500);
     }
-    },120);
+    },500);
    
 });
 
@@ -70,29 +70,32 @@ for (let i = 0; i <60; i++) {
 }
 
 
+document.addEventListener("DOMContentLoaded", () => {
 
 const enterSite = document.getElementById("enter-site");
-const welcomeScreen = document.getElementById("welcome-screen");
-
-document.body.classList.add("welcome-active");
-
-if (enterSite && welcomeScreen) {
+const welcome = document.getElementById("welcome");
+const mainSite = document.getElementById("mainSite")
+if (!enterSite || !welcome || !mainSite) {return;}
 
     enterSite.addEventListener("click", () => {
         
-        welcomeScreen.classList.add("hide");
-       
-        document.body.classList.remove("welcome-active");
+        mainSite.classList.add("show-site");
+        welcome.classList.add("hide-welcome")
+        
+        welcomeScreen.classList.add("leaving");
 
         
         setTimeout(() => {
+
+            welcome.style.display = "none"
             document.getElementById("home").scrollIntoView({
                 behaviour: "smooth"
             });
-        },700);
+        },7000);
     });
     
-}
+});
+
 
 
 

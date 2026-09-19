@@ -3,7 +3,7 @@ const familyMembers = {
         name: "Mr. Prosper Tadjomavowe Emudianughe",
         role: "Celebrant | Husband | Father | Grandfather | Educator",
         photo: "images/oldprosper.JPG",
-        education: "Bachelor's Degree in Polymer Chemistry Federal University of Technology Owerri (FUTO) and Master's Degree in Pure and Industrial Chemistry from University of Port Harcourt.",
+        education: "Bachelor's Degree in Polymer and Textile Science Technology Federal University of Technology Owerri (FUTO) and Master's Degree in Polymer Technology from University of Port Harcourt.",
         story: "Born on 20 September 1956 in Delta State. He is a devoted Christian, educator, former Chief Lecturer and a man whose life has been dedicated to faith, family and service."
     },
     mum: {
@@ -15,74 +15,74 @@ const familyMembers = {
     },
     christy: {
         name: "Miss. Christy Oghenero",
-        role: " First Daughter",
-        photo: "images/christy.JPG",
+        role: " First Child",
+        photo: "images/children/VRZJ5441.JPG",
         education: "Master's Degree in Biochemistry from University of Port Harcourt.",
-        story: " She is a devoted Christian, educator, former Chief Lecturer and a man whose life has been dedicated to faith, family and service."
+        story: " She is a devoted Christian, sister, cook, and business woman, CEO of COOK'S enterprises and also nurtured and assisted in the growth of her siblings."
     },
     peace: {
-        name: "Mrs. Peace Ufuoma",
-        role: " Second Child | Second Daughter ",
-        photo: "images/peace.JPG",
-        education: "Master's Degree in Pure and Industrial Chemistry from University of Lagos.",
-        story: " He is a devoted Christian, educator, former Chief Lecturer and a man whose life has been dedicated to faith, family and service."
+        name: "Mrs. Peace Ufuoma Agbra",
+        role: " Second Child | First Daughter ",
+        photo: "images/children/IMG_5860.JPG",
+        education: "Master's Degree in Industrial Chemistry from University of Lagos.",
+        story: "She is a devoted Christian, mother, sister, wife, CEO of Peake Sparkle, also assisted in taking care of her siblings."
 
     },
     evelyn: {
         name: "Miss Evelyn Iroroyokpako",
-        role: "Third Child | Third Daughter",
+        role: "Third Child | Second Daughter",
         photo: "images/eve.JPG",
-        education: " Master's Degree in Pure and Industrial Chemistry from University of Port Harcourt.",
-        story: "Born on November 1995 in Oghara, Delta State. He is a devoted Christian, educator, former Chief Lecturer and a man whose life has been dedicated to faith, family and service."
+        education: " Master's Degree in Geophysics from University of Port Harcourt.",
+        story: "She is a devoted Christian, sister, designer, analyst, CEO OF Evaro Stitches, always in charge of planning birthday parties and making cakes."
     },
     prudence: {
         name: "Miss Prudence Okeoghene",
-        role: "Fourth Child | Fourth Daughter",
+        role: "Fourth Child | Third Daughter",
         photo: "images/prudy.JPG",
         education: "Ph.D Candidate in Communication at University of Port Harcourt.",
-        story: "Born on July 1997. He is a devoted Christian, educator, former Chief Lecturer and a man whose life has been dedicated to faith, family and service."
+        story: "She is a devoted Christian, tech enthusiast, writer, spoken word poet, linguist also assisted in taking care of her siblings ."
     },
     emma: {
         name: "Master Emmanuel Onanefe",
         role: "Fifth Child | First Son ",
         photo: "images/emma.JPG",
         education: "Bachelor's Degree in Animal Science from University of Port Harcourt.",
-        story: "Born on May 2000. He is a devoted Christian, educator, former Chief Lecturer and a man whose life has been dedicated to faith, family and service."
+        story: "He is a devoted Christian, brother, tech enthusiast, and supporter of his family and loved ones."
     },
     praise: {
         name: "Miss Praise Ejiroghene",
-        role: "Sixth Child | Fifth Daughter | First twin",
+        role: "Sixth Child | Fourth Daughter | First twin",
         photo: "images/children/IMG_2692.JPG",
         education: "Bachelor's Degree in Chemical Engineering from University of Port Harcourt.",
-        story: "Born on July 2003. He is a devoted Christian, educator, former Chief Lecturer and a man whose life has been dedicated to faith, family and service."
+        story: "She is a devoted Christian, sister, educator, tech enthusiast, sustainability driver and a lover of her family."
     },
     precious: {
         name: "Miss Precious Akpevweoghene",
-        role: "Seventh Child | Sixth Daughter | Second Twin",
+        role: "Seventh Child | Fifth Daughter | Second Twin",
         photo: "images/children/KWM_2173.jpg",
         education: "Bachelor's Degree in Human Anatomy from University of Port Harcourt.",
-        story: "Born on July 2003. He is a devoted Christian, educator, former Chief Lecturer and a man whose life has been dedicated to faith, family and service."
-    },
-    kelvin: {
+        story: "She is a devoted Christian, sister, content creator, social media manager, auxillary nurse and a lover of her family."
+        },
+            kelvin: {
         name: "Mr. Kelvin Agbra",
         role: "Son In-law",
-        photo: "images/oldprosper.JPG",
-        education: "Master's Degree in Pure and Industrial Chemistry from University of Port Harcourt.",
-        story: " He is a devoted Christian, educator, former Chief Lecturer and a man whose life has been dedicated to faith, family and service."
-    },
+        photo: "images/children/DSC_9990.JPG",
+        education: "Master's Degree in Biochemistry from University of Lagos.",
+        story: " He is a devoted Christian, husband, father, son, fitness enthusiast, and a lover of his family."
+        },
     stefan: {
         name: "Master Stefan Ogheneyoma Agbra",
         role: "Grandson",
-        photo: "images/oldprosper.JPG",
+        photo: "images/children/DSC_5162.JPG",
         education: "Completed nursery one.",
-        story: "Born on June 2023. He is a devoted Christian, educator, former Chief Lecturer and a man whose life has been dedicated to faith, family and service."
+        story: "He is a devoted Christian, and a lover of his family."
     },
     eliana: {
         name: "Miss Eliana Brume Agbra",
         role: "Granddaughter",
-        photo: "images/oldprosper.JPG",
+        photo: "images/children/DSC_5240.JPG",
         education: "Completed Prenursery.",
-        story: "Born on May 2024. He is a devoted Christian, educator, former Chief Lecturer and a man whose life has been dedicated to faith, family and service."
+        story: "She is a devoted Christian, and a lover of her family."
     }
 
 };
